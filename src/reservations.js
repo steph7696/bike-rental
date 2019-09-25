@@ -483,7 +483,7 @@ export class Reservations extends Component {
               style={this.state.firstQuantity > 0 ? {} : { display: "none" }}
               onClick={this.calculatePrice}
             >
-              Checkout
+              Proceed to Checkout
             </Button>
           </div>
         </div>
@@ -557,7 +557,7 @@ export class Reservations extends Component {
                 textAlign: "center"
               }}
             >
-              <Button onClick={this.showCheckout}>Proceed to Checkout</Button>
+              <Button onClick={this.showCheckout}>Checkout</Button>
             </div>
           </div>
         </div>
