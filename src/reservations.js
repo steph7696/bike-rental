@@ -297,7 +297,7 @@ export class Reservations extends Component {
                 {
                   this.state.products[
                     this.state.itemSelected ? this.state.itemSelected - 1 : 0
-                  ].price
+                  ].price.toFixed(2)
                 }
               </div>
             </div>
@@ -376,7 +376,7 @@ export class Reservations extends Component {
                       this.state.accessorySelected
                         ? this.state.accessorySelected - 1
                         : 3
-                    ].price
+                    ].price.toFixed(2)
                   }
                 </div>
               </div>
@@ -458,7 +458,7 @@ export class Reservations extends Component {
                     this.state.addOnsSelected
                       ? this.state.addOnsSelected - 1
                       : 5
-                  ].price
+                  ].price.toFixed(2)
                 }
               </div>
             </div>
