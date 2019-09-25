@@ -195,7 +195,7 @@ export class Reservations extends Component {
     const totalPrice = productsTotal + accessoriesTotal + addOnsTotal;
 
     await this.setState({
-      finalPrice: totalPrice,
+      finalPrice: totalPrice.toFixed(2),
       finalQuantity:
         parseInt(productQuantity) +
         parseInt(accessoriesQuantity) +
