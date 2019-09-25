@@ -264,9 +264,6 @@ export class Reservations extends Component {
                 <option value={this.state.products[2].id}>
                   {this.state.products[2].name}
                 </option>
-                {/* {this.state.products.map(obj => {
-                    return <option value={obj.id}>{obj.name}</option>;
-                  })} */}
               </select>
             </div>
 
@@ -283,8 +280,8 @@ export class Reservations extends Component {
               </select>
             </div>
 
-            {/* <div className="row">
-              <div style={{ marginTop: "20px" }}>
+            <div className="row" style={{marginTop: "5px"}}>
+              <div>
                 Type:{" "}
                 {
                   this.state.products[
@@ -292,7 +289,7 @@ export class Reservations extends Component {
                   ].product_type
                 }
               </div>
-            </div> */}
+            </div>
 
             <div className="row">
               <div style={{ marginTop: "20px" }} id="firstPrice">
@@ -354,6 +351,17 @@ export class Reservations extends Component {
                   return <option value={obj.id}>{obj.value}</option>;
                 })}
               </select>
+            </div>
+
+            <div className="row" style={{marginTop: "5px"}}>
+              <div style={this.state.firstQuantity > 0 ? {} : { display: "none" }}>
+                Type:{" "}
+                {
+                  this.state.products[
+                    this.state.accessorySelected ? this.state.accessorySelected - 1 : 3
+                  ].product_type
+                }
+              </div>
             </div>
 
             <div className="row" style={{ marginTop: "20px" }}>
@@ -421,6 +429,17 @@ export class Reservations extends Component {
                   return <option value={obj.id}>{obj.value}</option>;
                 })}
               </select>
+            </div>
+
+            <div className="row" style={{marginTop: "5px"}}>
+              <div style={this.state.firstQuantity > 0 ? {} : { display: "none" }}>
+                Type:{" "}
+                {
+                  this.state.products[
+                    this.state.addOnsSelected ? this.state.addOnsSelected - 1 : 5
+                  ].product_type
+                }
+              </div>
             </div>
 
             <div
@@ -568,7 +587,6 @@ export class Reservations extends Component {
               ? { marginTop: "40px" }
               : { display: "none" }
           }
-          // style={{borderBottom: "2px solid rgb(204, 255, 204)"}}
         >
           <div className="col-4 col-md-4 col-sm-4">
             <h3>Billing Address</h3>
