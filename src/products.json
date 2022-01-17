@@ -1,0 +1,112 @@
+{
+  "subTitle": "Please choose the type and quantity of bikes you would like to rent",
+
+  "categories": [
+    {
+      "name": "Product"
+    },
+    {
+      "name": "Quantity"
+    },
+    {
+      "name": "Type"
+    },
+    {
+      "name": "Price"
+    }
+  ],
+
+  "creditCard": {
+    "cvc": "",
+    "expiry": "",
+    "focus": "",
+    "name": "",
+    "number": ""
+  },
+
+  "amount": [
+    {
+      "id": "0",
+      "value": "0"
+    },
+    {
+      "id": "1",
+      "value": "1"
+    },
+    {
+      "id": "2",
+      "value": "2"
+    },
+    {
+      "id": "3",
+      "value": "3"
+    },
+    {
+      "id": "4",
+      "value": "4"
+    },
+    {
+      "id": "5",
+      "value": "5"
+    },
+    {
+      "id": "6",
+      "value": "6"
+    }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "name": "Adult Male Bike",
+      "price": 10.5,
+      "image": "http://via.placeholder.com/460x460?text=Adult%10Male%10Bike",
+      "product_type": "bike",
+      "about": "Maximum speed: 25km/h, Load capacity: 100kg, Handlebars: Standard, Suspension Type: dual-suspension, Brake Style: Dual-disc-brakes, Number Of Speeds: 21, Opportunity: Outdoor Camping, Mountain"
+    },
+    {
+      "id": 2,
+      "name": "Adult Female Bike",
+      "price": 10.5,
+      "image": "http://via.placeholder.com/460x460?text=Adult%10Female%10Bike",
+      "product_type": "bike",
+      "about": "Brand : Nishiki, Country of Origin : Imported, Style : NKW00104, Frame Material: Metal,Handlebars: Standard, Suspension Type: dual-suspension, Opportunity: Outdoor Camping"
+    },
+    {
+      "id": 3,
+      "name": "Kids Unisex Bike",
+      "price": 12.75,
+      "image": "http://via.placeholder.com/460x460?text=Kids%10Unisex%10Bike",
+      "product_type": "bike",
+      "about": "Brand : Radio Flyer, Assembled Product Weight: 7.28lbs, Assembled Product Dimensions (L x W x H): 10.35 x 24.55 x 18.28 Inches, Features: Folds for storage, Streamers, Covered storage bin, Fully assembled, Adjustable seat"
+    },
+    {
+      "id": 4,
+      "name": "Adult Unisex Helmet",
+      "price": 4.0,
+      "image": "http://via.placeholder.com/350x350?text=Adult%10Unisex%10Helmet",
+      "product_type": "accessory"
+    },
+    {
+      "id": 5,
+      "name": "Kids Unisex Helmet",
+      "price": 3.5,
+      "image": "http://via.placeholder.com/350x350?text=Kids%10Unisex%10Helmet",
+      "product_type": "accessory"
+    },
+    {
+      "id": 6,
+      "name": "Insurance",
+      "price": 9.99,
+      "image": "http://via.placeholder.com/350x350?text=Insurance",
+      "product_type": "addon"
+    },
+    {
+      "id": 7,
+      "name": "No Insurance",
+      "price": 0.0,
+      "image": "http://via.placeholder.com/350x350?text=Insurance",
+      "product_type": "addon"
+    }
+  ]
+}

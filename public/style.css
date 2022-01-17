@@ -1,0 +1,204 @@
+/* generic */
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+body {
+  color: #eee;
+  background-color: #222;
+}
+
+/* navbar */
+
+.website-container {
+  padding: 0 !important;
+  width: 100% !important;
+  height: 110rem !important;
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+  background-color: cornflowerblue !important;
+}
+
+.toolbar {
+  justify-content: space-between !important;
+}
+
+.company-title {
+  display: inline;
+}
+
+.bike-logo {
+  width: 6%;
+  margin-right: 1rem;
+}
+
+/* banner */
+
+.banner-image {
+  width: 100%;
+  opacity: 55%;
+}
+
+.bike-banner-container {
+  position: relative;
+}
+
+.bike-selection-title {
+  top: 50%;
+  left: 50%;
+  color: black;
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  font-family: "Lato" !important;
+  transform: translate(-50%, -50%);
+}
+
+/* bike selection */
+
+.section-container {
+  margin: 5rem 0;
+}
+
+.selection-container {
+  background: cornflowerblue;
+}
+
+.selection {
+  margin: 1rem 0 !important;
+}
+
+.bike-image {
+  width: 60%;
+  margin: 1rem;
+}
+
+.selector-title {
+  color: white;
+  margin: 1rem 0 !important;
+}
+
+.select {
+  width: 38%;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: cornflowerblue;
+}
+
+.about-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.date-picker {
+  margin-right: 2rem !important;
+}
+
+/* accessories */
+
+.cont-btn-container {
+  margin-top: 3rem;
+}
+
+.continue-button {
+  width: 100%;
+  border-width: 2px;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  background-color: white;
+  border-color: cornflowerblue;
+}
+
+.continue-button:hover {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+/*
+
+.price-heading,
+.price-body {
+  padding-top: 2rem;
+}
+
+.price-container,
+.checkout-details--container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.product,
+.price {
+  justify-content: space-between;
+}
+
+.checkout-details--container {
+  justify-content: flex-start;
+}
+
+.price-container {
+  justify-content: space-between;
+  border-top: 2px solid cornflowerblue;
+}
+
+.total-price-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.billing-container,
+.checkout-price-container,
+.payment-container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.card-form {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.card-expiration {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .card-expiration {
+    width: 42%;
+  }
+  .card-cvc {
+    width: 20%;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 991px) {
+  .card-expiration {
+    width: 56%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 600px) {
+  .card-expiration,
+  .card-cvc {
+    width: 50%;
+    margin-right: 0;
+  }
+} */
