@@ -11,7 +11,7 @@
     "bootstrap": "^3.4.1",
     "classnames": "^2.2.6",
     "date-fns": "^2.0.0-beta.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "primereact": "^3.4.0",
     "react": "^16.14.0",
     "react-bootstrap": "^1.4.3",
